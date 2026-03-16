@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 1"
+title: "Autocratization through academic capture: When and how would-be autocrats threaten academic freedom"
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
