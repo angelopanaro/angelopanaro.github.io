@@ -25,10 +25,10 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Angelo Vito Panaro"
-  pronouns         : "he/him" # example: "she/her"  
+  pronouns         :  # example: "she/her"  
   bio              : "Postdoctoral Researcher, Friedrich-Alexander-University Erlangen-Nuremberg, Institute of Political Science"
   location         : "Erlangen"
-  employer         : "FAU-Institute of Political Science"
+  employer         : "FAU - Institute of Political Science"
   uri              :  "https://www.pol.phil.fau.eu/person/angelo-vito-panaro/" # URL
   email            : "angelo.panaro@fau.de" 
 
@@ -41,13 +41,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : # Username
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "https://bsky.app/profile/angelovpanaro.bsky.social" # Replace this with you Bluesky username
-  linkedin         : "https://www.linkedin.com/in/angelo-vito-panaro-88b66741/" # Username
+  bluesky          : "angelovpanaro" # Replace this with you Bluesky username
+  linkedin         : "angelovitopanaro" # Username
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
