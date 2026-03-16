@@ -7,6 +7,7 @@ classes: wide
 ---
 
 ## Peer-Reviewed Articles
+<ol start="9" reversed>
   <li>9. Panaro Angelo Vito, [Autocratization through academic capture: When and how would-be autocrats threaten academic freedom](https://www.sciencedirect.com/science/article/pii/S0883035526000558), *International Journal of Educational Research*, Online first, 2026</li>
   <li>8. Panaro Angelo Vito, Shahini Viola, Jessoula Matteo, [European Union and the fight against poverty: a paradigm shift?](https://www.rivisteweb.it/doi/10.7389/119288), *Politiche Sociali/Social Policies*, (2):537-560, 2025</li>
   <li>7. Panaro Angelo Vito, [All that is Left is all that matters: the politics of social spending in authoritarian regimes](https://www.tandfonline.com/doi/full/10.1080/13510347.2025.2466186), *Democratization*, 32(6):1385–1410, 2025</li>
