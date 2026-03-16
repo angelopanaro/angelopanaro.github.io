@@ -1,0 +1,20 @@
+/* Light blue background for the whole site */
+body {
+    background-color: #e0f7ff; /* light blue */
+    color: #222222;            /* text color */
+}
+
+/* Links in darker blue */
+a {
+    color: #0077cc;
+}
+
+/* Headers in slightly darker blue */
+h1, h2, h3, h4, h5, h6 {
+    color: #005599;
+}
+
+/* Optional: highlight sidebar or cards */
+.sidebar, .card {
+    background-color: #f0faff;
+}
