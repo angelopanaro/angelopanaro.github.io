@@ -18,3 +18,17 @@ h1, h2, h3, h4, h5, h6 {
 .sidebar, .card {
     background-color: #f0faff;
 }
+
+ol.reversed {
+  counter-reset: item 10;  /* start number of list */
+}
+
+ol.reversed li {
+  display: block;
+  counter-increment: item -1;  /* count down */
+}
+
+ol.reversed li::before {
+  content: counter(item) ". ";  /* display the number */
+  font-weight: bold;
+}
