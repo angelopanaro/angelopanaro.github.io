@@ -20,7 +20,6 @@ My work has been published in *Democratization*, *Contemporary Politics*, *Journ
 
 I am currently serving as the coordinator of the [Italian Political Science (SISP) Standing Group ‘Political Regimes’](https://standinggroups.sisp.it/politicalregimes/) (with Dr. Tiziana Corda) and in 2022 I was awarded the [Carlo Maria Santoro Prize](https://www.sisp.it/premio-carlo-maria-santoro#:~:text=Il%20Premio%20annuale%20%E2%80%9CCarlo%20Maria,degli%20autori%20e%20delle%20autrici.) for the best paper presented by an early-career researcher at the SISP Conference (co-authored with Dr. Andrea Vaccaro). 
 
-<br>
 
 
 <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
@@ -39,9 +38,15 @@ I am currently serving as the coordinator of the [Italian Political Science (SIS
   <div style="flex: 0 0 48%;">
     <strong>Education</strong>
     <ul>
-      <li>PhD in Political Science (2021)<br>Scuola Normale Superiore</li>
-      <li>MA in Economics (2016)<br>Bocconi University</li>
-      <li>BA in Political Science (2012)<br>University of Bologna - Forlì campus</li>
+      <li>&#127891; PhD in Political Science (2021)<br>
+          <span style="font-size: 0.85em;">Scuola Normale Superiore</span>
+      </li>
+      <li>&#127891; MA in Economics (2016)<br>
+          <span style="font-size: 0.85em;">Bocconi University</span>
+      </li>
+      <li>&#127891; BA in Political Science (2012)<br>
+          <span style="font-size: 0.85em;">University of Bologna - Forlì campus</span>
+      </li>
     </ul>
   </div>
 
