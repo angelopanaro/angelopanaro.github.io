@@ -1,5 +1,5 @@
 ---
-title: "Media & Policy"
+title: ""
 permalink: /media/
 layout: single
 author_profile: true
