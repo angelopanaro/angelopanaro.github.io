@@ -1,54 +1,91 @@
-/* Light blue background for the whole site */
-body {
-    background-color: #e0f7ff; /* light blue */
-    color: #222222;            /* text color */
+/* -----------------------------
+   Page background and text
+----------------------------- */
+body,
+html {
+    background-color: #e0f7ff !important; /* light blue */
+    color: #222222 !important;            /* text color */
 }
 
-/* Links in darker blue (for about.md and all pages) */
-.markdown-body a,
-.page-single a {
-    color: #0077cc;
-    text-decoration: underline;
-}
-
-.markdown-body a:hover,
-.page-single a:hover {
-    color: #005599;
-}
-
-/* Headers in slightly darker blue */
-h1, h2, h3, h4, h5, h6 {
-    color: #005599;
-}
-
-/* Optional: highlight sidebar or cards */
-.sidebar, .card {
-    background-color: #f0faff;
-}
-
-/* Dark blue toolbar with white title */
+/* -----------------------------
+   Toolbar / header
+----------------------------- */
 .Header {
-    background-color: #003366;
+    background-color: #003366 !important; /* dark blue toolbar */
 }
 
 .Header-link,
 .Header-link:hover,
 .Header-nav-link,
 .Header-nav-link:hover {
-    color: #ffffff;
+    color: #ffffff !important; /* white toolbar titles and links */
 }
 
-/* Reversed ordered list styling */
+/* -----------------------------
+   Sidebar
+----------------------------- */
+.sidebar,
+.sidebar a {
+    background-color: #e0f7ff !important; /* light blue sidebar */
+    color: #003366 !important;            /* dark blue sidebar links */
+}
+
+.sidebar a:hover {
+    color: #005599 !important; /* darker blue on hover */
+}
+
+/* -----------------------------
+   Cards or other boxed elements
+----------------------------- */
+.card,
+.sidebar-card {
+    background-color: #f0faff !important; /* slightly lighter card background */
+}
+
+/* -----------------------------
+   Links in content
+----------------------------- */
+.markdown-body a,
+.page-single a,
+.article a {
+    color: #0077cc !important;          /* bright blue links */
+    text-decoration: underline;
+}
+
+.markdown-body a:hover,
+.page-single a:hover,
+.article a:hover {
+    color: #005599 !important;          /* darker blue on hover */
+}
+
+/* -----------------------------
+   Headers in content
+----------------------------- */
+h1, h2, h3, h4, h5, h6 {
+    color: #005599 !important;
+}
+
+/* -----------------------------
+   Add spacing above first heading
+----------------------------- */
+.page-single h2:first-of-type,
+.article h2:first-of-type {
+    margin-top: 60px; /* adjust as needed */
+}
+
+/* -----------------------------
+   Reversed ordered lists
+----------------------------- */
 ol.reversed {
-  counter-reset: item 10;
+    counter-reset: item 10;  /* start number of list */
 }
 
 ol.reversed li {
-  display: block;
-  counter-increment: item -1;
+    display: block;
+    counter-increment: item -1;  /* count down */
 }
 
 ol.reversed li::before {
-  content: counter(item) ". ";
-  font-weight: bold;
+    content: counter(item) ". ";  /* display the number */
+    font-weight: bold;
 }
