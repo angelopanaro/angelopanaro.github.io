@@ -4,9 +4,16 @@ body {
     color: #222222;            /* text color */
 }
 
-/* Links in darker blue */
-a {
+/* Links in darker blue (for about.md and all pages) */
+.markdown-body a,
+.page-single a {
     color: #0077cc;
+    text-decoration: underline;
+}
+
+.markdown-body a:hover,
+.page-single a:hover {
+    color: #005599;
 }
 
 /* Headers in slightly darker blue */
@@ -19,16 +26,29 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #f0faff;
 }
 
+/* Dark blue toolbar with white title */
+.Header {
+    background-color: #003366;
+}
+
+.Header-link,
+.Header-link:hover,
+.Header-nav-link,
+.Header-nav-link:hover {
+    color: #ffffff;
+}
+
+/* Reversed ordered list styling */
 ol.reversed {
-  counter-reset: item 10;  /* start number of list */
+  counter-reset: item 10;
 }
 
 ol.reversed li {
   display: block;
-  counter-increment: item -1;  /* count down */
+  counter-increment: item -1;
 }
 
 ol.reversed li::before {
-  content: counter(item) ". ";  /* display the number */
+  content: counter(item) ". ";
   font-weight: bold;
 }
