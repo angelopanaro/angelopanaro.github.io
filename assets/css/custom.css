@@ -3,18 +3,24 @@
 ----------------------------- */
 body,
 html {
-    background-color: #e0f7ff !important; /* light blue */
-    color: #222222 !important;            /* text color */
+    background-color: #e0f7ff !important; /* light blue background */
+    color: #222222 !important;            /* main text color */
 }
 
 /* -----------------------------
-   Toolbar / header full override
+   Toolbar (Header) via Primer CSS variables
 ----------------------------- */
-.Header {
-    background-color: #003366 !important; /* dark blue toolbar */
+:root {
+    --color-header-bg: #003366;      /* dark blue toolbar */
+    --color-header-text: #ffffff;    /* white toolbar text */
+    --color-header-hover: #cccccc;   /* lighter white on hover */
 }
 
-/* Toolbar links (menu items) */
+/* Toolbar direct override (optional fallback) */
+.Header {
+    background-color: #003366 !important;
+}
+
 .Header-link,
 .Header-link:hover,
 .Header-nav-link,
@@ -24,15 +30,7 @@ html {
 .Header-item a:hover,
 .Header-item--brand,
 .Header-item--brand a {
-    color: #ffffff !important; /* white text for all links and site title */
-}
-
-/* Optional: hover effect for toolbar items */
-.Header-link:hover,
-.Header-nav-link:hover,
-.Header-item a:hover,
-.Header-item--brand a:hover {
-    color: #cccccc !important; /* lighter white on hover */
+    color: #ffffff !important;
 }
 
 /* -----------------------------
@@ -41,23 +39,23 @@ html {
 .sidebar,
 .sidebar a {
     background-color: #e0f7ff !important; /* light blue sidebar */
-    color: #003366 !important;            /* dark blue sidebar links */
+    color: #003366 !important;            /* dark blue links */
 }
 
 .sidebar a:hover {
-    color: #005599 !important; /* darker blue on hover */
+    color: #005599 !important;            /* darker blue on hover */
 }
 
 /* -----------------------------
-   Cards or other boxed elements
+   Cards and boxed elements
 ----------------------------- */
 .card,
 .sidebar-card {
-    background-color: #f0faff !important; /* slightly lighter card background */
+    background-color: #f0faff !important; /* slightly lighter blue */
 }
 
 /* -----------------------------
-   Links in content
+   Links in page content
 ----------------------------- */
 .markdown-body a,
 .page-single a,
@@ -73,18 +71,18 @@ html {
 }
 
 /* -----------------------------
-   Headers in content
+   Headings in content
 ----------------------------- */
 h1, h2, h3, h4, h5, h6 {
-    color: #005599 !important;
+    color: #005599 !important;          /* dark blue headings */
 }
 
 /* -----------------------------
-   Add spacing above first heading
+   Top spacing for first heading on single pages
 ----------------------------- */
 .page-single h2:first-of-type,
 .article h2:first-of-type {
-    margin-top: 60px; /* adjust as needed */
+    margin-top: 60px;
 }
 
 /* -----------------------------
