@@ -6,6 +6,8 @@ author_profile: true
 classes: wide
 ---
 
+My research focuses on comparative politics, particularly the study of authoritarian regimes and autocratization, comparative welfare states, the politics of social policy, global social redistribution, and socio-economic inequalities.
+
 ## Peer-Reviewed Articles
 
 - Panaro Angelo Vito, [Autocratization through academic capture: When and how would-be autocrats threaten academic freedom](https://www.sciencedirect.com/science/article/pii/S0883035526000558), *International Journal of Educational Research*, Online first, 2026
