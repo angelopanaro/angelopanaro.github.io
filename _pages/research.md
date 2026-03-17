@@ -8,7 +8,7 @@ classes: wide
 
 
 
-My research focuses on comparative politics, particularly the study of authoritarian regimes and autocratization, comparative welfare states, the politics of social policy, and socio-economic inequalities.
+My research focuses on comparative politics, particularly the study of authoritarian regimes and regime changes, comparative welfare states, social policy, and socio-economic inequalities.
 
 ## Peer-Reviewed Articles
 
