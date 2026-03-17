@@ -6,9 +6,6 @@ author_profile: true
 ---
 
 
-
-
-
 ## Friedrich-Alexander University Erlangen-Nürnberg (FAU)
 
 * **Social Policy in Authoritarian Regimes** *(Undergraduate)* — Spring 2025
@@ -22,10 +19,13 @@ author_profile: true
 
   
 ## University of Bologna
-
+### Department of Political and Social Sciences
 * **Political Science** *(Undergraduate)* — Spring 2024
 * **Political Science** *(Undergraduate)* — Spring 2023
-* **Political Science** *(Undergraduate, Teaching Assistant)* — Spring 2022, Fall 2022
+* **Political Science** *(Undergraduate, Teaching Assistant)* — Spring 2022
+* **Political Science** *(Undergraduate, Teaching Assistant, Forlì campus)* — Fall 2022
+
+### Department of Economics
 * **Crash Course in International Economics** *(Graduate)* — Fall 2022
 * **Crash Course in International Economics** *(Graduate)* — Fall 2021
 * **Crash Course in International Economics** *(Graduate)* — Fall 2020
