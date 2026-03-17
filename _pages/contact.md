@@ -1,10 +1,10 @@
 
---- 
-title: "" 
-permalink: /media/ 
-layout: single 
-author_profile: true 
-classes: wide 
+---
+title: "Contact"
+permalink: /contact/
+layout: single
+author_profile: true
+classes: wide
 ---
 
 ## Contact
