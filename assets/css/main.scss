@@ -59,11 +59,11 @@
   background-color: #003366 !important; /* dark blue full toolbar */
 }
 
-/* Make the nav lists inside masthead inherit the toolbar color (no stripe) */
+/* Nav container + visible/hidden links inside masthead */
 .masthead #site-nav,
 .masthead #site-nav .visible-links,
 .masthead #site-nav .hidden-links {
-  background-color: inherit !important;
+  background-color: #003366 !important;
 }
 
 /* Tab names white */
