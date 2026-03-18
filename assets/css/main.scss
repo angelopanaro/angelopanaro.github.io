@@ -41,57 +41,45 @@
     "vendor/font-awesome/brands"
 ;
 
-/* =========================================================
-   FULL NAVBAR FIX - TOOLBAR + TABS
-   ========================================================= */
-
-/* 1. Full dark blue toolbar */
-.masthead {
-  background-color: #003366 !important;
+#site-nav.greedy-nav {
+  background-color: #003366 !important; /* Dark blue toolbar */
 }
 
-/* 2. Nav container inside masthead (UL) */
-.masthead #site-nav {
-  background-color: #003366 !important;
+/* ULs inside nav */
+#site-nav.greedy-nav .visible-links,
+#site-nav.greedy-nav .hidden-links {
+  background-color: transparent !important; /* inherit toolbar color */
 }
 
-/* 3. Visible and hidden link lists */
-.masthead #site-nav .visible-links,
-.masthead #site-nav .hidden-links {
-  background-color: #003366 !important;
+/* Remove white background from <li> items */
+#site-nav.greedy-nav .masthead__menu-item {
+  background-color: transparent !important;
 }
 
-/* 4. Remove white background from list items and links */
-.masthead #site-nav .masthead__menu-item,
-.masthead #site-nav .masthead__menu-item a {
-  background-color: #003366 !important;
-}
-
-/* 5. Tab names white */
-.masthead #site-nav .masthead__menu-item a {
-  color: #003366 !important;
+/* Tab links white */
+#site-nav.greedy-nav .masthead__menu-item a {
+  color: #ffffff !important;
+  background: transparent !important;
   text-decoration: none;
 }
 
-/* 6. Keep tab names white on hover/focus and remove hover box */
-.masthead #site-nav .masthead__menu-item a:hover,
-.masthead #site-nav .masthead__menu-item a:focus {
-  color: #003366 !important;
+/* Keep tab links white on hover/focus */
+#site-nav.greedy-nav .masthead__menu-item a:hover,
+#site-nav.greedy-nav .masthead__menu-item a:focus {
+  color: #ffffff !important;
   background: transparent !important;
   border-color: transparent !important;
 }
 
-/* 7. Mobile hamburger icon white */
-.masthead #site-nav .navicon,
-.masthead #site-nav .navicon:before,
-.masthead #site-nav .navicon:after {
-  background: #003366 !important;
+/* Mobile hamburger icon white */
+#site-nav.greedy-nav .navicon,
+#site-nav.greedy-nav .navicon:before,
+#site-nav.greedy-nav .navicon:after {
+  background: #ffffff !important;
 }
 
-/* 8. Hide dark/light mode toggle */
+/* Hide dark/light mode toggle */
 #theme-toggle,
-.theme-toggle,
-.dark-mode-toggle,
 button[aria-label*="theme"],
 button[aria-label*="dark"],
 button[title*="theme"],
