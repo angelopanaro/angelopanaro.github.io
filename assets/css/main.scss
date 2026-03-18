@@ -41,3 +41,56 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* =========================================================
+   CUSTOM NAVBAR STYLING
+   ========================================================= */
+
+/* Dark blue top toolbar */
+.masthead,
+.greedy-nav {
+  background-color: #0b2a5b !important;
+}
+
+/* White tab names */
+.greedy-nav a,
+.greedy-nav .visible-links a,
+.greedy-nav .hidden-links a,
+.site-title,
+.greedy-nav .site-title {
+  color: #ffffff !important;
+}
+
+/* Keep text white on hover/focus */
+.greedy-nav a:hover,
+.greedy-nav a:focus,
+.site-title:hover,
+.site-title:focus {
+  color: #ffffff !important;
+}
+
+/* Optional: hamburger/menu icon white on mobile */
+.greedy-nav .navicon,
+.greedy-nav .navicon:before,
+.greedy-nav .navicon:after {
+  background: #ffffff !important;
+}
+
+/* =========================================================
+   HIDE DARK/LIGHT MODE TOGGLE ICON
+   ========================================================= */
+
+.theme-toggle,
+.dark-mode-toggle,
+#theme-toggle,
+button[aria-label*="theme"],
+button[aria-label*="dark"],
+button[title*="theme"],
+button[title*="dark"] {
+  display: none !important;
+}
+
+/* If the last item in the nav is the toggle, hide it */
+.greedy-nav .visible-links > li:last-child {
+  display: none !important;
+}
