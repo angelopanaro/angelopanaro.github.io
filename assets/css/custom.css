@@ -56,7 +56,14 @@ h1, h2, h3, h4, h5, h6 {
 ----------------------------- */
 .page-single h2:first-of-type,
 .article h2:first-of-type {
-    margin-top: 100px;
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .page-single h2:first-of-type,
+  .article h2:first-of-type {
+    margin-top: 1rem;
+  }
 }
 
 /* -----------------------------
@@ -74,4 +81,65 @@ ol.reversed li {
 ol.reversed li::before {
     content: counter(item) ". ";  /* display the number */
     font-weight: bold;
+}
+
+/* ===== Mobile Safety Fixes ===== */
+
+/* Prevent horizontal scrolling */
+html, body {
+  overflow-x: hidden;
+}
+
+/* Make media responsive */
+img,
+iframe,
+video,
+embed,
+object {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Prevent long text/URLs from overflowing */
+.page__content,
+.page,
+.archive,
+.sidebar,
+.author__content,
+.author__urls {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+/* Make tables scroll instead of breaking layout */
+table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+/* Make code blocks scroll horizontally */
+pre {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+/* Mobile layout adjustments */
+@media (max-width: 768px) {
+  .page {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .sidebar {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .author__avatar img {
+    max-width: 100%;
+    height: auto;
+  }
 }
