@@ -26,4 +26,4 @@ classes: wide
 - [Academic Freedom Index: serious concern for US universities](https://www.timeshighereducation.com/news/academic-freedom-index-serious-concern-us-universities), March 2025, *Times Higher Education*
 - [The scientists who risk it all for research](https://www.scidev.net/global/scidev-net-investigates/the-scientists-who-risk-it-all-for-research/), November 2024, *SciDev.Net*
 
-Interviews with *The Economist*, *Estonian Research Council*, *Royal Netherlands Academy of Arts and Sciences (KNAW)*, *Swiss National Science Foundation (SNSF)*, *EFN Science*, and *the World*.
+Interviews with *The Economist*, *Estonian Research Council*, *Royal Netherlands Academy of Arts and Sciences (KNAW)*, *Swiss National Science Foundation (SNSF)*, *EFN Science*, *the World*, *University World News*, and *News Tank*
