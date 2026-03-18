@@ -8,32 +8,6 @@ html {
 }
 
 /* -----------------------------
-   Toolbar (Header) via Primer CSS variables
------------------------------ */
-:root {
-    --color-header-bg: #003366;      /* dark blue toolbar */
-    --color-header-text: #ffffff;    /* white toolbar text */
-    --color-header-hover: #cccccc;   /* lighter white on hover */
-}
-
-/* Toolbar direct override (optional fallback) */
-.Header {
-    background-color: #003366 !important;
-}
-
-.Header-link,
-.Header-link:hover,
-.Header-nav-link,
-.Header-nav-link:hover,
-.Header-item,
-.Header-item a,
-.Header-item a:hover,
-.Header-item--brand,
-.Header-item--brand a {
-    color: #ffffff !important;
-}
-
-/* -----------------------------
    Sidebar
 ----------------------------- */
 .sidebar,
