@@ -50,34 +50,6 @@
   background-color: #003366 !important;
 }
 
-/* Nav container + visible/hidden links inside masthead */
-.masthead #site-nav,
-.masthead #site-nav .visible-links,
-.masthead #site-nav .hidden-links {
-  background-color: #003366 !important;
-}
-
-/* Tab names white */
-.masthead #site-nav .masthead__menu-item a {
-  color: #ffffff !important;
-  background: transparent !important;
-  text-decoration: none;
-}
-
-/* Hover/focus tabs stay white, no background box */
-.masthead #site-nav .masthead__menu-item a:hover,
-.masthead #site-nav .masthead__menu-item a:focus {
-  color: #ffffff !important;
-  background: transparent !important;
-  border-color: transparent !important;
-}
-
-/* Mobile hamburger icon white */
-.masthead #site-nav .navicon,
-.masthead #site-nav .navicon:before,
-.masthead #site-nav .navicon:after {
-  background: #ffffff !important;
-}
 
 /* Hide dark/light mode toggle */
 #theme-toggle,
