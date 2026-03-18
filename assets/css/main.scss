@@ -52,20 +52,15 @@
 
 /* Nav container inside masthead */
 .masthead #site-nav {
-  background-color: transparent !important; /* let masthead show through */
+  background-color: #003366 !important;
 }
 
 /* ULs inside the nav inherit masthead color */
 .masthead #site-nav .visible-links,
 .masthead #site-nav .hidden-links {
-  background-color: transparent !important;
+  background-color: #003366 !important;
 }
 
-/* Remove white background from list items and links */
-.masthead #site-nav .masthead__menu-item,
-.masthead #site-nav .masthead__menu-item a {
-  background-color: transparent !important;
-}
 
 /* Hide dark/light mode toggle */
 #theme-toggle,
