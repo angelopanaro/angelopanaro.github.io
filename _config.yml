@@ -17,21 +17,6 @@ url                      : "https://angelopanaro.github.io" # The base hostname 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "angelopanaro/angelopanaro.github.io"
 
-# Theme & Customization
-theme: "air"          # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-color_mode:
-  default: light      # force light mode
-  toggle: false       # hide the dark/light toggle button
-
-# Custom CSS
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      custom_css: "/assets/css/custom.css"
-      
-  
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
@@ -46,60 +31,83 @@ author:
   employer         : 
   uri              :  "https://www.pol.phil.fau.eu/person/angelo-vito-panaro/" # URL
   email            : "angelo.panaro@fau.de" 
-
   # Academic websites
   googlescholar    : "https://scholar.google.com/citations?user=u8_cqnQAAAAJ&hl=it"
   orcid            : "https://orcid.org/0000-0002-6585-6083"
   researchgate     : "https://www.researchgate.net/profile/Angelo_Vito_Panaro" # URL
-
   # Social media
   bluesky          : "angelovpanaro.bsky.social" # Replace this with you Bluesky username
   linkedin         : "angelo-vito-panaro-88b66741" # Username
 
-# Publication Category - The following the list of publication categories and their headings
+# -----------------------------
+# Basic Site Settings
+# -----------------------------
+locale                   : "en-US"
+title                    : "Lolli"
+title_separator          : "-"
+name                     : &name "Your Name"
+description              : &description ""
+url                      : "https://Lolli.github.io"
+baseurl                  : ""
+repository               : "Lolli/Lolli.github.io"
+
+# -----------------------------
+# Theme & Navbar Customization
+# -----------------------------
+theme: "air"          # Base theme
+color_mode:
+  default: light      # Force light mode
+  toggle: false       # Hide the dark/light mode toggle button
+
+# Apply custom CSS to style navbar colors
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      custom_css: "/assets/css/custom.css"
+
+# -----------------------------
+# Publication Categories
+# -----------------------------
 publication_category:
   journal_articles:
     title: 'Articles in peer-reviewed journals'
-
   other_articles:
     title: 'Other Articles'
-
   books:
     title: 'Book Chapters'
-
   reviews:
     title: 'Book Reviews'
-
   working_papers:
     title: 'Working Papers'
-
   policy_reports:
     title: 'Policy Reports'
-
   open_pieces:
     title: 'Open Pieces'
 
-
+# -----------------------------
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
-breadcrumbs              : false # true, false (default)
+# -----------------------------
+teaser                   :
+breadcrumbs              : false
 words_per_minute         : 160
 future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false      #change to true to add link to talkmap on talks page
+read_more                : "disabled"
+talkmap_link             : false
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               :
   disqus:
     shortname            :
   discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+    server               :
   facebook:
     appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    num_posts            :
+    colorscheme          :
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
+  branch                 : "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -112,21 +120,22 @@ staticman:
     date:
       type               : "date"
       options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+        format           : "iso8601"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
-  path                   : # blank (default) uses feed.xml
+  hide                   : false
+  path                    :
 
-
-
+# -----------------------------
 # Analytics
+# -----------------------------
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : "false"
   google:
     tracking_id          :
 
-
-# Reading Files
+# -----------------------------
+# File Inclusion & Exclusion
+# -----------------------------
 include:
   - .htaccess
   - _pages
@@ -164,16 +173,15 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
-# Conversion
+# -----------------------------
+# Markdown & Output
+# -----------------------------
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-
-# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -184,8 +192,9 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
-# These settings control the types of collections used by the template
+# -----------------------------
+# Collections
+# -----------------------------
 collections:
   teaching:
     output: true
@@ -200,9 +209,8 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-
 # -----------------------------
-# Pages & collections
+# Defaults for Pages & Collections
 # -----------------------------
 defaults:
   - scope:
@@ -261,7 +269,7 @@ sass:
   style: compressed
 
 # -----------------------------
-# Output
+# Permalinks & Timezone
 # -----------------------------
 permalink: /:categories/:title/
 timezone: Etc/UTC
@@ -276,48 +284,22 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
-# Mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
 
-
+# -----------------------------
 # Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
+# -----------------------------
 category_archive:
   type: liquid
   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
 
-
+# -----------------------------
 # HTML Compression
-# - https://jch.penibelst.de/
+# -----------------------------
 compress_html:
   clippings: all
   ignore:
     envs: development
+
