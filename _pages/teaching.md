@@ -43,4 +43,3 @@ classes: wide
 
 - **Management of Social Welfare Policy** *(Graduate)* — Fall 2022
 
----
