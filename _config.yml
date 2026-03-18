@@ -16,6 +16,8 @@ url                      : "https://angelopanaro.github.io" # The base hostname 
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "angelopanaro/angelopanaro.github.io"
+site_theme               : "air"
+
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -38,13 +40,7 @@ author:
   # Social media
   bluesky          : "angelovpanaro.bsky.social" # Replace this with you Bluesky username
   linkedin         : "angelo-vito-panaro-88b66741" # Username
-
-# Theme & Color Mode
-theme: "air"
-color_mode:
-  default: light
-  toggle: false  # hides the light/dark toggle
-
+  
 # Publication Categories
 publication_category:
   journal_articles:
