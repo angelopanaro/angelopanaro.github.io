@@ -14,13 +14,13 @@ redirect_from:
 ## Work experience
 
   
-* 2024- present Postdoctoral Researcher <br>
+* 2024–today Postdoctoral Researcher <br>
   *Institute of Political Science, FAU Erlangen-Nürnberg, Germany*<br>
 
-* 2023-2024 Postdoctoral Researcher<br>
+* 2023–2024 Postdoctoral Researcher<br>
   *Faculty of Sociology, Bielefeld University, Germany*<br>
   
-* 2021-2023 Postdoctoral Fellow <br>
+* 2021–2023 Postdoctoral Fellow <br>
   *Department of Political and Social Sciences, University of Milan, Italy*<br>
 
   
