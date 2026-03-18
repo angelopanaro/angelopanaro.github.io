@@ -42,27 +42,31 @@
 ;
 
 /* =========================================================
-   FIX WHITE STRIPE & CUSTOM NAVBAR STYLING
+   FULL NAVBAR FIX - REMOVE WHITE STRIPE
    ========================================================= */
 
-/* Dark blue background for toolbar and all nav containers */
+/* Dark blue toolbar for nav container and lists */
 #site-nav,
 #site-nav .visible-links,
 #site-nav .hidden-links {
   background-color: #003366 !important; /* dark blue */
 }
 
-/* Tab names white */
-#site-nav .visible-links a,
-#site-nav .site-title {
-  color: #ffffff !important;
+/* Remove background from list items */
+#site-nav .masthead__menu-item,
+#site-nav .masthead__menu-item a {
+  background-color: transparent !important;
 }
 
-/* Keep tab names white on hover/focus and avoid white hover boxes */
-#site-nav .visible-links a:hover,
-#site-nav .visible-links a:focus,
-#site-nav .site-title:hover,
-#site-nav .site-title:focus {
+/* Make tab names white */
+#site-nav .masthead__menu-item a {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+/* Keep tab names white on hover/focus */
+#site-nav .masthead__menu-item a:hover,
+#site-nav .masthead__menu-item a:focus {
   color: #ffffff !important;
   background: transparent !important;
   border-color: transparent !important;
@@ -75,7 +79,7 @@
   background: #ffffff !important;
 }
 
-/* Hide dark/light mode toggle button */
+/* Hide dark/light mode toggle */
 #theme-toggle,
 .theme-toggle,
 .dark-mode-toggle,
