@@ -8,11 +8,6 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-theme:
-  name: "air"
-  color_mode:
-    default: light
-    toggle: false # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Angelo Vito Panaro"
 title_separator          : "-"
 name                     : &name "Your Name"
@@ -22,6 +17,20 @@ url                      : "https://angelopanaro.github.io" # The base hostname 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "angelopanaro/angelopanaro.github.io"
 
+# Theme & Customization
+theme: "air"          # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+color_mode:
+  default: light      # force light mode
+  toggle: false       # hide the dark/light toggle button
+
+# Custom CSS
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      custom_css: "/assets/css/custom.css"
+      
   
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
