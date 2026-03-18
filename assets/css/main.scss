@@ -42,48 +42,43 @@
 ;
 
 /* =========================================================
-   CUSTOM NAVBAR STYLING - FIX WHITE STRIPE
+   FIX WHITE STRIPE & CUSTOM NAVBAR STYLING
    ========================================================= */
 
-/* Dark blue toolbar */
-.masthead {
-  background-color: #003366 !important;
+/* Dark blue background for toolbar and all nav containers */
+#site-nav,
+#site-nav .visible-links,
+#site-nav .hidden-links {
+  background-color: #003366 !important; /* dark blue */
 }
 
-/* Remove background from the menu container to eliminate white stripe */
-.greedy-nav,
-.greedy-nav .visible-links,
-.greedy-nav .hidden-links {
-  background: transparent !important;
-}
-
-/* Make ONLY the visible tab names white */
-.greedy-nav .visible-links a,
-.greedy-nav .site-title {
+/* Tab names white */
+#site-nav .visible-links a,
+#site-nav .site-title {
   color: #ffffff !important;
 }
 
 /* Keep tab names white on hover/focus and avoid white hover boxes */
-.greedy-nav .visible-links a:hover,
-.greedy-nav .visible-links a:focus,
-.greedy-nav .site-title:hover,
-.greedy-nav .site-title:focus {
+#site-nav .visible-links a:hover,
+#site-nav .visible-links a:focus,
+#site-nav .site-title:hover,
+#site-nav .site-title:focus {
   color: #ffffff !important;
   background: transparent !important;
   border-color: transparent !important;
 }
 
 /* Mobile hamburger icon white */
-.greedy-nav .navicon,
-.greedy-nav .navicon:before,
-.greedy-nav .navicon:after {
+#site-nav .navicon,
+#site-nav .navicon:before,
+#site-nav .navicon:after {
   background: #ffffff !important;
 }
 
-/* Hide dark/light mode toggle if present */
+/* Hide dark/light mode toggle button */
+#theme-toggle,
 .theme-toggle,
 .dark-mode-toggle,
-#theme-toggle,
 button[aria-label*="theme"],
 button[aria-label*="dark"],
 button[title*="theme"],
