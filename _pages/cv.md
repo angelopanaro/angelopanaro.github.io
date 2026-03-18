@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,30 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Postdoctoral Researcher, 2024- present
+  *Institute of Political Science, FAU Erlangen-Nürnberg, Germany*
+* Postdoctoral Researcher, 2023-2024
+  *Faculty of Sociology, Bielefeld University, Germany*
+* Postdoctoral Fellow, 2021-2023 
+* *Department of Political and Social Sciences, University of Milan, Italy*
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+2019-2024 Adjunct Professor, Department of Political and Social Sciences/Department of Economics, University of Bologna, Italy
+2016 M.A. in Economics, Department of Economics, Bocconi University, Italy
+2012 B.A. in Political Science, Department of Political and Social Sciences, University of Bologna, Italy
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Research experience ##
+* Visiting Fellow, 2019
+  *Research Center of Inequality and Social Policy (SOCIUM), University of Bremen, Germany*
+* Visiting Fellow, 2018
+ *European Centre for Social Welfare Policy and Research, Austria*
 
-Publications
+
+Education
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Ph.D in Political Science, Scuola Normale Superiore, 2021 (expected)
+* M.A. in Economics, Bocconi University, 2016
+* B.A. in Political Science, University of Bologna, 2012
+
