@@ -50,9 +50,15 @@
   background-color: #003366 !important;
 }
 
+/* Nav container inside masthead */
+.masthead #site-nav {
+  background-color: transparent !important; /* let masthead show through */
+}
+
+/* ULs inside the nav inherit masthead color */
 .masthead #site-nav .visible-links,
 .masthead #site-nav .hidden-links {
-  background-color: #003366 !important;
+  background-color: transparent !important;
 }
 
 /* Hide dark/light mode toggle */
