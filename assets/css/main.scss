@@ -52,6 +52,14 @@
   background-color: #003366 !important; /* dark blue */
 }
 
+/* Keep tab names white on hover/focus */ 
+#site-nav .masthead__menu-item a:hover, 
+#site-nav .masthead__menu-item a:focus { 
+    color: #ffffff !important; 
+    background: transparent !important; 
+    border-color: transparent !important; 
+}
+
 /* Mobile hamburger icon white */
 #site-nav .navicon,
 #site-nav .navicon:before,
