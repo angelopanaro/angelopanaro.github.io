@@ -34,7 +34,6 @@ I am currently serving as the coordinator of the [Italian Political Science (SIS
       <li>Socio-economic inequalities</li>
     </ul>
   </div>
-  
 <div style="flex: 0 0 48%;">
   <strong>Education</strong>
   <ul style="padding-left: 0; list-style: none;">
