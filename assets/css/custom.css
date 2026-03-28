@@ -1,42 +1,52 @@
 /* -----------------------------
-   Page background and text
+   Global resets and page background
 ----------------------------- */
+*,
+*::before,
+*::after {
+    box-sizing: border-box; /* easier width/height calculations */
+}
+
 html, body {
     background-color: #f8f9fa !important; /* light gray background */
     color: #222222 !important;            /* main text color */
+    font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
     overflow-x: hidden;                    /* prevent horizontal scrolling */
+    -webkit-text-size-adjust: 100%;       /* prevent font scaling on mobile Safari */
 }
 
 /* -----------------------------
    Sidebar
 ----------------------------- */
 .sidebar {
-    background-color: #f8f9fa !important; /* light gray sidebar */
+    background-color: #f8f9fa !important;
 }
 
 .sidebar a {
-    color: #003366 !important;            /* dark blue links in sidebar */
+    color: #003366 !important; 
     text-decoration: none;
 }
 
 .sidebar a:hover {
-    color: #005599 !important;            /* darker blue on hover */
+    color: #005599 !important;
 }
 
 /* -----------------------------
-   Center table headers only 
+   Center table headers
 ----------------------------- */
 table th {
-    text-align: center;       /* centers the text horizontally */
-    vertical-align: middle;   /* optional: centers text vertically */
-} 
+    text-align: center;
+    vertical-align: middle;
+}
 
 /* -----------------------------
    Cards and boxed elements
 ----------------------------- */
 .card,
 .sidebar-card {
-    background-color: #ffffff !important; /* white cards for contrast */
+    background-color: #ffffff !important;
 }
 
 /* -----------------------------
@@ -46,27 +56,28 @@ table th {
 .page a,
 .article a,
 .markdown-body a {
-    color: #0066cc !important;            /* bright blue links */
-    text-decoration: none;                /* no underline by default */
+    color: #0066cc !important;           
+    text-decoration: none;
 }
 
 .page__content a:hover,
 .page a:hover,
 .article a:hover,
 .markdown-body a:hover {
-    color: #005599 !important;            /* darker blue on hover */
-    text-decoration: underline;           /* underline on hover */
+    color: #005599 !important;
+    text-decoration: underline;
 }
 
 /* -----------------------------
    Headings in content
 ----------------------------- */
 h1, h2, h3, h4, h5, h6 {
-    color: #005599 !important;            /* dark blue headings */
+    font-family: 'Merriweather', 'Georgia', serif;
+    color: #005599 !important;
 }
 
 /* -----------------------------
-   Top spacing for first heading on single pages
+   Top spacing for first heading
 ----------------------------- */
 .page-single h2:first-of-type,
 .article h2:first-of-type {
@@ -84,16 +95,16 @@ h1, h2, h3, h4, h5, h6 {
    Reversed ordered lists
 ----------------------------- */
 ol.reversed {
-    counter-reset: item 10;  /* start number of list */
+    counter-reset: item 10;
 }
 
 ol.reversed li {
     display: block;
-    counter-increment: item -1;  /* count down */
+    counter-increment: item -1;
 }
 
 ol.reversed li::before {
-    content: counter(item) ". ";  /* display the number */
+    content: counter(item) ". ";
     font-weight: bold;
 }
 
@@ -135,7 +146,9 @@ pre {
     max-width: 100%;
 }
 
-/* Mobile layout adjustments */
+/* -----------------------------
+   Mobile layout adjustments
+----------------------------- */
 @media (max-width: 768px) {
     .page,
     .page-single,
@@ -176,7 +189,7 @@ pre {
 }
 
 /* -----------------------------
-   Top nav (keep existing white links)
+   Top nav (desktop white links)
 ----------------------------- */
 .greedy-nav a,
 .masthead a {
@@ -203,7 +216,6 @@ pre {
     background-color: #e0f7ff !important;
 }
 
-/* Hover/tap state */
 .greedy-nav .hidden-links a:hover {
     color: #005599 !important;
     background-color: #d2f0fa !important;
