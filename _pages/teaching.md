@@ -1,12 +1,10 @@
 ---
-layout: archive
 title: ""
-permalink: /teaching/
+permalink: /teachin/
+layout: single
 author_profile: true
 classes: wide
 ---
-
-
 <br>
 
 ## Friedrich-Alexander University Erlangen-Nürnberg (FAU)
