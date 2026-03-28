@@ -24,6 +24,14 @@ html, body {
 }
 
 /* -----------------------------
+   Center table headers only 
+----------------------------- */
+table th {
+    text-align: center;       /* centers the text horizontally */
+    vertical-align: middle;   /* optional: centers text vertically */
+} 
+
+/* -----------------------------
    Cards and boxed elements
 ----------------------------- */
 .card,
