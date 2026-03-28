@@ -35,21 +35,21 @@ I am currently serving as the coordinator of the [Italian Political Science (SIS
     </ul>
   </div>
   
-  <div style="flex: 0 0 48%;">
-    <strong>Education</strong>
-    <ul style="padding-left: 0; list-style: none;">
-      <li style="margin-bottom: 0.8em;">
-        <span style="margin-right: 0.3em;">&#127891;</span>
+<div style="flex: 0 0 48%;">
+  <strong>Education</strong>
+  <ul style="padding-left: 0; list-style: none;">
+    <li style="margin-bottom: 0.8em;">
+      <span style="margin-right: 0.3em; color: black;">&#x1F393;</span>
         PhD in Political Science, 2021
         <div style="font-size: 0.85em; margin-left: 1.8em;">Scuola Normale Superiore</div>
       </li>
       <li style="margin-bottom: 0.8em;">
-        <span style="margin-right: 0.3em;">&#127891;</span>
+      <span style="margin-right: 0.3em; color: black;">&#x1F393;</span>
         MA in Economics, 2016
         <div style="font-size: 0.85em; margin-left: 1.8em;">Bocconi University</div>
       </li>
       <li>
-        <span style="margin-right: 0.3em;">&#127891;</span>
+      <span style="margin-right: 0.3em; color: black;">&#x1F393;</span>
         BA in Political Science, 2012
         <div style="font-size: 0.85em; margin-left: 1.8em;">University of Bologna - Forlì campus</div>
       </li>
