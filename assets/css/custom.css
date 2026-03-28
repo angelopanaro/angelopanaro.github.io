@@ -50,13 +50,6 @@ html, body {
     text-decoration: underline;           /* underline on hover */
 }
 
-.page__content a:visited,
-.page a:visited,
-.article a:visited,
-.markdown-body a:visited {
-    color: #004080 !important;            /* slightly darker for visited links */
-}
-
 /* -----------------------------
    Headings in content
 ----------------------------- */
