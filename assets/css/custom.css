@@ -58,21 +58,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* -----------------------------
-   Font settings 
------------------------------ */
-body {
-    font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #222222;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Merriweather', 'Georgia', serif;
-    color: #005599; /* matches your link/heading color */
-}
-
-/* -----------------------------
    Top spacing for first heading on single pages
 ----------------------------- */
 .page-single h2:first-of-type,
