@@ -55,5 +55,3 @@ I am currently serving as the coordinator of the [Italian Political Science (SIS
     BA in Political Science (2012)
       <div style="font-size: 0.85em; margin-left: 1.8em;">University of Bologna - Forlì campus</div>
     </li>
-  </ul>
-</div>
