@@ -206,17 +206,18 @@ pre {
 
 /* Mobile dropdown background */
 .greedy-nav .hidden-links {
-    background-color: #e0f7ff !important;
+    background-color: #e0f7ff !important; /* light blue dropdown */
     border: 1px solid #bcdde8 !important;
 }
 
 /* Mobile dropdown links = dark for readability */
 .greedy-nav .hidden-links a {
-    color: #003366 !important;
-    background-color: #e0f7ff !important;
+    color: #003366 !important;           /* dark blue links */
+    background-color: transparent !important;
 }
 
+/* Hover/tap state */
 .greedy-nav .hidden-links a:hover {
-    color: #005599 !important;
+    color: #005599 !important;           /* darker blue on hover */
     background-color: #d2f0fa !important;
 }
