@@ -4,7 +4,7 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box; /* easier width/height calculations */
+    box-sizing: border-box;
 }
 
 html, body {
@@ -13,7 +13,7 @@ html, body {
     font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    overflow-x: hidden;                    /* prevent horizontal scrolling */
+    overflow-x: hidden;
     -webkit-text-size-adjust: 100%;       /* prevent font scaling on mobile Safari */
 }
 
@@ -189,11 +189,15 @@ pre {
 }
 
 /* -----------------------------
-   Top nav (desktop white links)
+   Top nav
 ----------------------------- */
-.greedy-nav a,
-.masthead a {
-    color: #ffffff !important;
+
+/* Desktop links - stay white */
+@media (min-width: 769px) {
+    .greedy-nav a,
+    .masthead a {
+        color: #ffffff !important;
+    }
 }
 
 /* Hamburger icon/button */
@@ -214,6 +218,7 @@ pre {
 .greedy-nav .hidden-links a {
     color: #003366 !important;           /* dark blue links */
     background-color: transparent !important;
+    text-decoration: none;
 }
 
 /* Hover/tap state */
